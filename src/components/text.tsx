@@ -1,13 +1,17 @@
-export default function Text() {
-  return (
-    <div
-      style={{
+import React from "react";
+
+function Text() {
+  return React.createElement(
+    "div",
+    {
+      style: {
         padding: "20px",
         background: "blue",
         color: "white",
-      }}
-    >
-      <p>Hello World</p>
-    </div>
+      },
+    },
+    React.createElement("p", null, "Hello World")
   );
 }
+
+export default Text;
