@@ -1,12 +1,6 @@
 export default function Text() {
   return (
-    <div
-      style={{
-        padding: "20px",
-        background: "blue",
-        color: "white",
-      }}
-    >
+    <div className="w-20 h-20 bg-red-500">
       <p>Hello World</p>
     </div>
   );
