@@ -1,4 +1,4 @@
-import Text from "./components/text";
+import Text from "../components/text";
 
 export default function Page() {
   return (
